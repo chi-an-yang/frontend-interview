@@ -1,0 +1,74 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+a,
+a :hover {
+  text-decoration: none;
+}
+
+#__next {
+  width: 100%;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+/* custom ant-select  */
+#__next .ant-select-selection-placeholder {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#__next .ant-select-selector {
+  border-radius: 4px;
+}
+
+#__next .header {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 40px 0 32px;
+  line-height: 28px;
+}
+
+#__next .header span {
+  font-weight: bold;
+}
+
+#__next .article {
+  height: calc(100vh - 220px);
+}
+#__next .section-container {
+  overflow: hidden;
+  height: 602px;
+  margin-bottom: 16px;
+}
+
+#__next .scroll {
+  overflow: scroll;
+  height: 100%;
+}
+#__next .section {
+  height: auto;
+}
+
+#__next .ant-pagination-item {
+  border-radius: 4px;
+}
+
+#__next .ant-pagination-item-active {
+  background-color: #14bdcc;
+  color: #fff;
+}
+
+#__next .ant-pagination-next,
+#__next .ant-pagination-prev {
+  line-height: 0;
+}
